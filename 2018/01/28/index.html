@@ -87,7 +87,7 @@
 <meta property="og:site_name" content="tao程序员">
 <meta property="og:description" content="使用pip安装软件包时，默认从pypi.python.org检索并获取，由于在服务器在美国，下载速度慢此时，可指定为境内的镜像站点。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-01-28T16:16:24.471Z">
+<meta property="og:updated_time" content="2018-02-10T07:21:38.967Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="解决python的pip下载速度慢">
 <meta name="twitter:description" content="使用pip安装软件包时，默认从pypi.python.org检索并获取，由于在服务器在美国，下载速度慢此时，可指定为境内的镜像站点。">
@@ -380,7 +380,7 @@ document.write('<script src="' + src + '" id="sozz"><\/script>');
 <p>pip install -i <a href="https://pypi.tuna.tsinghua.edu.cn/simple" target="_blank" rel="noopener">https://pypi.tuna.tsinghua.edu.cn/simple</a> [下载包的名字]</p>
 <h2 id="永久使用"><a href="#永久使用" class="headerlink" title="永久使用:"></a>永久使用:</h2><p>在Linux下，修改 ~/.pip/pip.conf (没有就创建一个文件夹及文件。文件夹前要加“.”，表示是隐藏文件夹)</p>
 <p>在windows下，打开C盘在文件地址栏下 输入 %APPDATA% 按回车，在这个目录下新建一个为pip的文件夹，接着打开这个文件夹，再新建一个为pip.ini的文件。</p>
-<h2 id="文件的内容为："><a href="#文件的内容为：" class="headerlink" title="文件的内容为："></a>文件的内容为：</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">[global]        </span><br><span class="line">index-url = https://pypi.tuna.tsinghua.edu.cn /simple</span><br><span class="line">[install] </span><br><span class="line">trusted-host=pypi.tuna.tsinghua.edu.cn</span><br></pre></td></tr></table></figure>
+<h2 id="文件的内容为："><a href="#文件的内容为：" class="headerlink" title="文件的内容为："></a>文件的内容为：</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">[global]        </span><br><span class="line">index-url = https://pypi.tuna.tsinghua.edu.cn/simple</span><br><span class="line">[install] </span><br><span class="line">trusted-host=pypi.tuna.tsinghua.edu.cn</span><br></pre></td></tr></table></figure>
 <h4 id="index-url：-镜像站点"><a href="#index-url：-镜像站点" class="headerlink" title="index-url：[镜像站点]"></a>index-url：[镜像站点]</h4><h4 id="trusted-host-镜像站点的域名"><a href="#trusted-host-镜像站点的域名" class="headerlink" title="trusted-host: [镜像站点的域名]"></a>trusted-host: [镜像站点的域名]</h4>
       
     </div>
